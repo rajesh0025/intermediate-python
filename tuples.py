@@ -41,4 +41,4 @@ print(last)
 print(*middle)
 
 tupl=('rajsh',)
-print((tupl))
+print(tupl)
