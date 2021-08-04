@@ -1,5 +1,5 @@
 #its useful in generating items only one at a time when we ask 
-# yield keyword instead of return
+# yield keyword instead of return.
 def mygenerator():
     yield 1
     yield 2 
@@ -7,19 +7,19 @@ def mygenerator():
 
 g=mygenerator()
 
-#for i in g:#it prints all the items
+#for i in g:#it prints all the items.
 #    print(i)
 #we can print one by one
 value=next(g)#first value
 print(value)
 
-value=next(g)#if execute again then the next value print
+value=next(g)#if execute again then the next value print.
 print(value)
 
 value=next(g)
 print(value)
 
-# yield keyword instead of return
+# yield keyword instead of return.
 def mygenerator():
     yield 1
     yield 2 
@@ -29,7 +29,7 @@ g=mygenerator()
 
 print(sum(g))
 
-# yield keyword instead of return
+# yield keyword instead of return.
 def mygenerator():
     yield 1
     yield 2 
@@ -59,8 +59,8 @@ print(next(cd))
 print(next(cd))
 print(next(cd))
 print(next(cd))
-#normal vs generator
-#normal
+#normal vs generator.
+#normal.
 import sys
 def firstn(n):
     nums =[]
@@ -70,7 +70,7 @@ def firstn(n):
         num+=1
     return nums
 
-#generator
+#generator.
 def firstn_generator(n):
     num=0
     while num<n:
