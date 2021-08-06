@@ -1,2 +1,2 @@
 # intermediate-python
-python intermediate conceps
+python intermediate concepts with examples 
