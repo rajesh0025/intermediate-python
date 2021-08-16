@@ -1,31 +1,31 @@
 for w in range(1,33):
    print(w,end=',,')
 
-#here """product """ gives you all possible pairs
+#here """product """ gives you all possible pairs.
 from itertools import product
 a = [1,2]
 b = [3,4]
 prod=product(a,b)
 print(list(prod))
-#we can repeat each set of values in single one
+#we can repeat each set of values in single one.
 from itertools import product
 a = [1,2]
 b = [3]
 prod=product(a,b,repeat=2)
 print(list(prod))
 
-#""permutations""" is used to get all possible order of a list 
+#""permutations""" is used to get all possible order of a list .
 from itertools import permutations
 a = [1,2,3]
 perm=permutations(a)
 print(list(perm))
-#we can repeat this in limiting values
+#we can repeat this in limiting values.
 from itertools import permutations
 a = [1,2,3]
 perm=permutations(a,2)
 print(list(perm))
 
-#""""combination """" different cobination argument value is mandetory
+#""""combination """" different cobination argument value is mandetory.
 from itertools import combinations,combinations_with_replacement
 a=[1,2,3]
 comb =combinations(a,2)
@@ -44,7 +44,7 @@ print(list(acc))
 from itertools import accumulate
 import operator
 a=[1,2,3,4]
-acc=accumulate(a,func=operator.mul)#multiply operator #we can also use max for maximum of respective  value
+acc=accumulate(a,func=operator.mul)#multiply operator #we can also use max for maximum of respective  value.
 print(a)
 print(list(acc))
 
